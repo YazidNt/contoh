@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.travel"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.travel.Splash"
+            android:label="Rental Mobil" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.travel.Menu_utama"
+            android:label="Rental Mobil" >
+        </activity>
+        <activity
+            android:name="com.android.travel.Info"
+            android:label="Info" >
+        </activity>
+        <activity
+            android:name="com.android.travel.Pemesanan"
+            android:label="Pemesanan" >
+        </activity>
+        <activity
+            android:name="com.android.travel.Bantuan"
+            android:label="Bantuan" >
+        </activity>
+        <activity
+            android:name="com.android.travel.Tentang"
+            android:label="Tentang" >
+        </activity>
+        <activity
+            android:name="com.android.travel.Submenu"
+            android:label="Rental Mobil" >
+        </activity>
+        <activity
+            android:name="com.android.travel.Registrasi"
+            android:label="Registrasi" >
+        </activity>
+        <activity
+            android:name="com.android.travel.Pesan"
+            android:label="Pesan" >
+        </activity>
+    </application>
+
+</manifest>
